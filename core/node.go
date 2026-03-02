@@ -61,9 +61,10 @@ type CloudOptions struct {
 }
 
 type FileInfo struct {
-    ID        string    // root hash
-    Name      string    // оригинальное имя файла
-    Size      int64     // размер в байтах
-    CreatedAt time.Time // когда загружен
-    Replicas  int       // текущее количество копий
+    ID        string
+    Name      string
+    Size      int64
+    CreatedAt time.Time
+    Replicas  int
+
 }
